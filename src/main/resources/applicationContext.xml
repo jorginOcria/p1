@@ -36,9 +36,9 @@
 
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> 
 	    <property name="driverClassName" value="org.postgresql.Driver"/>
-		<property name="url" value="jdbc:postgresql://ec2-18-210-51-239.compute-1.amazonaws.com/d9m0fcqk00rle"/>
-		<property name="username" value="wmefduuillwaxl"/>
-		<property name="password" value="31bb3a05c1fcc6ca640b8b00d7607a7c1dca833fa4569ba3a1c826026ce73ef5"/>
+		<property name="url" value="jdbc:postgresql://ec2-52-72-221-20.compute-1.amazonaws.com/drmsn133btg18"/>
+		<property name="username" value="izpakzplefcbwy"/>
+		<property name="password" value="a7bcba7167ef69c351442f08086d4671410777784de5cbdab9713f1c46e9d242"/>
 	</bean>
 
 	<!--
