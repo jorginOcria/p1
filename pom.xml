@@ -24,7 +24,7 @@
 		<repository>
 			<id>com.ambientinformatica</id>
 			<name>ambient-corporativo</name>
-			<url>file:${project.basedir}/repo</url>
+			<url>file:${project.basedir}/repo/com/ambientinformatica/ambient-corporativo/1.0.11/</url>
 		</repository>
 
 	</repositories>
