@@ -22,8 +22,8 @@
 	<repositories>
 		<!--other repositories if any -->
 		<repository>
-			<id>project.local</id>
-			<name>project</name>
+			<id>br.com.ambientinformatica</id>
+			<name>ambient-corporativo</name>
 			<url>file:${project.basedir}/repo</url>
 		</repository>
 	</repositories>
