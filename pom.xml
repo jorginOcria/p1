@@ -26,8 +26,8 @@
 			<name>ambient-corporativo</name>
 			<url>file://${project.basedir}/repo</url>
 		</repository>
-
 	</repositories>
+
 
 	<dependencies>
 
@@ -36,8 +36,8 @@
 			<artifactId>ambient-corporativo</artifactId>
 			<version>1.0.11</version>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -51,7 +51,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-
 		<dependency>
 			<groupId>br.com.digilabs.jqplot</groupId>
 			<artifactId>jqplot4java</artifactId>
@@ -64,8 +63,6 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-
-
 
 		<dependency>
 			<groupId>javax.inject</groupId>
@@ -92,7 +89,7 @@
 			<artifactId>ambient-jsf</artifactId>
 			<version>3.0.5</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
