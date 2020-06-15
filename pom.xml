@@ -24,27 +24,12 @@
 		<repository>
 			<id>com.ambientinformatica</id>
 			<name>ambient-corporativo</name>
-			<url>file:${project.basedir}/repo/com/ambientinformatica/ambient-corporativo/1.0.11/</url>
+			<url>file:${project.basedir}/repo/</url>
 		</repository>
 
 	</repositories>
 
 	<dependencies>
-
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>4.0.0-alpha-3</version>
-		</dependency>
-
-
-		<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
-		<dependency>
-			<groupId>net.sf.jasperreports</groupId>
-			<artifactId>jasperreports</artifactId>
-			<version>6.1.0</version>
-		</dependency>
 
 
 		<dependency>
@@ -98,25 +83,6 @@
 			<artifactId>ambient-jpa</artifactId>
 			<version>2.0.18</version>
 			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.glassfish.jersey.inject</groupId>
-			<artifactId>jersey-hk2</artifactId>
-			<version>2.28</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.glassfish.jersey.containers</groupId>
-			<artifactId>jersey-container-servlet-core</artifactId>
-			<version>2.28</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-json-jackson -->
-		<dependency>
-			<groupId>org.glassfish.jersey.media</groupId>
-			<artifactId>jersey-media-json-jackson</artifactId>
-			<version>2.28</version>
 		</dependency>
 
 		<dependency>
