@@ -18,6 +18,17 @@
 		<webapp-runner.version>9.0.13.0</webapp-runner.version>
 	</properties>
 
+
+	<repositories>
+		<!--other repositories if any -->
+		<repository>
+			<id>com.ambientinformatica</id>
+			<name>ambient-corporativo</name>
+			<url>file:${project.basedir}/repo</url>
+		</repository>
+
+	</repositories>
+
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -64,11 +75,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>br.com.ambientinformatica</groupId>
+			<groupId>com.ambientinformatica</groupId>
 			<artifactId>ambient-corporativo</artifactId>
 			<version>1.0.11</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/repo/br/com/ambientinformatica/ambient-corporativo/1.0.11/ambient-corporativo-1.0.11.jar</systemPath>
 		</dependency>
 
 		<dependency>
