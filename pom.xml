@@ -10,11 +10,23 @@
 	<name>primefaces</name>
 	<url>http://inpai.com.br/primefaces</url>
 
+
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<webapp-runner.version>9.0.13.0</webapp-runner.version>
 	</properties>
+
+
+	<repositories>
+		<!--other repositories if any -->
+		<repository>
+			<id>project.local</id>
+			<name>project</name>
+			<url>file:${primefaces.basedir}/repo</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 

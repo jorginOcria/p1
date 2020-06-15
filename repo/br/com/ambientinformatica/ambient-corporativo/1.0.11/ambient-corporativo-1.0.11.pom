@@ -8,14 +8,6 @@
 	<version>1.0.11</version>
 	<description />
 
-	<repositories>
-		<!--other repositories if any -->
-		<repository>
-			<id>project.local</id>
-			<name>project</name>
-			<url>file:${project.basedir}/repo</url>
-		</repository>
-	</repositories>
 
 	<dependencies>
 
@@ -33,11 +25,7 @@
 			<scope>provided</scope>
 		</dependency>
 		
-		<dependency>
-			<groupId>br.com.ambientinformatica</groupId>
-			<artifactId>ambient-corporativo</artifactId>
-			<version>1.0.11</version>
-		</dependency>
+	
 	</dependencies>
 
 	<distributionManagement>
